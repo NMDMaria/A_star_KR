@@ -1,3 +1,7 @@
+##  Negrut Maria-Daniela 233
+##  Link pentru documentatie si foldere de input/output
+##  https://github.com/NMDMaria/A_star_KR
+
 import cProfile
 from copy import deepcopy
 import time
@@ -890,14 +894,8 @@ class Graph:
             # Updating the persons waiting time/travelling time
             for personIndex in range(len(current.persons)):
                 if current.persons[personIndex].status == "waiting":
-                    if time < current.time:
-                        print(nodCurent)
-                        exit()
                     current.persons[personIndex].waitingTime += (time - lastTime)
                 else:
-                    if time < current.time:
-                        print(nodCurent)
-                        exit()
                     current.persons[personIndex].travelTime += (time - lastTime)
 
             # We see what actions took place, and update
@@ -919,8 +917,7 @@ class Graph:
                 # Update the person in the list
                 personIndex = current.getPerson(possibleActions[actionIndex][1].name)
                 if personIndex is None:
-                    print("Person should have been in list")
-                    exit()
+                    continue
                 if possibleActions[actionIndex][0] == "finished":
                     # Person finished, no need to take it in consideration anymore
                     newPersons.pop(personIndex)
@@ -929,8 +926,7 @@ class Graph:
                 busIndex = current.getBus(possibleActions[actionIndex][2].nr, possibleActions[actionIndex][2].leaveTime,
                                           possibleActions[actionIndex][2].type)
                 if busIndex is None and possibleActions[actionIndex][0] == "up":
-                    print("Person boarded a bus that disapeared")
-                    exit()
+                    continue
                 elif busIndex is not None:
                     newBuses[busIndex] = possibleActions[actionIndex][2]
 
