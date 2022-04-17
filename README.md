@@ -1,5 +1,4 @@
 # Documentation - A* - "Multe autobuze"
-Negruț Maria-Daniela 233. 
 ## Table of contents
   - [Context](#context)
     - [Summary](#summary)
@@ -332,7 +331,7 @@ At some point a **state** could represent a **dead end**, meaning from that poin
 
 ---
 
-#### Input 4 - minimum solution: length 10, cost 47
+#### Input 4 - minimum solution: length 10, cost 63
 |Type of algorithm  |Type of heuristic  |Time|Solution length | Solution cost| Max nodes in memory|Number of nodes generated|
 |--|--|--|--|--|--|--|
 |Breadth First| Banală|> 25s| 
@@ -340,31 +339,31 @@ At some point a **state** could represent a **dead end**, meaning from that poin
 |	| Admisibilă 2|> 25s
 | 	|Admisibilă 3|> 25s
 |	| Neadmisibilă|> 25s
-|Depth First| Banală|6.094|48|379|10|1477| 
-|	| Admisibilă 1|6.243|48|379|10|1477| 
-|	| Admisibilă 2|5.949|48|379|10|1477|  
-|	| Admisibilă 3|5.888|48|379|10|1477| 
-|	| Neadmisibilă|5.810|48|379|10|1477| 
+|Depth First| Banală|14.173|52|377|9|4991| 
+|	| Admisibilă 1|14.108|52|377|9|4991| 
+|	| Admisibilă 2|13.905|52|377|9|4991|  
+|	| Admisibilă 3|14.491|52|377|9|4991|  
+|	| Neadmisibilă|14.444|52|377|9|4991| 
 |Iterative Depth First| Banală|> 25s
 |	| Admisibilă 1|> 25s
 |	| Admisibilă 2|> 25s
 |	| Admisibilă 3|> 25s
 |	| Neadmisibilă|> 25s
-|A*| Banală|6.460|10|47|2212|2864| 
-|	| Admisibilă 1|3.226|10|47|1140|1532| 
-|	| Admisibilă 2|2.001|10|47|890|1151| 
-|	| Admisibilă 3|1.538|10|47|711|917| 
-|	| Neadmisibilă|0.334|12|69|157|203| 
-|Optimized A*| Banală|2.226|10|47|927|1021| 
-|	| Admisibilă 1|1.052|10|47|520|597| 
-|	| Admisibilă 2|0.900|10|47|428|480| 
-|	| Admisibilă 3|0.676|10|47|341|377| 
-|	| Neadmisibilă|0.279|12|69|151|161| 
-|IDA*| Banală|> 25s
-|	| Admisibilă 1|19.561|10|47|10|12616| 
-|	| Admisibilă 2|14.927|10|47|9|8090| 
-|	| Admisibilă 3|9.110|10|47|9|5036| 
-|	| Neadmisibilă|0.4560|10|47|9|304|
+|A*| Banală| > 50s 
+|	| Admisibilă 1|37.966|10|63|10080|13849| 
+|	| Admisibilă 2|14.757|10|63|5029|6804| 
+|	| Admisibilă 3|10.558|10|63|3955|5357| 
+|	| Neadmisibilă|0.403|12|64|174|237| 
+|Optimized A*| Banală|18.940|10|63|3893|4704| 
+|	| Admisibilă 1|10.389|10|63|2676|3244| 
+|	| Admisibilă 2|4.836|10|63|1565|1798| 
+|	| Admisibilă 3|3.321|10|63|1231|1400| 
+|	| Neadmisibilă|0.243|12|64|130|147| 
+|IDA*| Banală|> 50s 
+|	| Admisibilă 1|> 50s 
+|	| Admisibilă 2|> 50s 
+|	| Admisibilă 3|> 50s 
+|	| Neadmisibilă|0.634|12|64|9|398|
 
 
 ### Conclusions
@@ -377,7 +376,7 @@ A bad heuristic tested on a limited number of inputs can "trick" everyone, becau
 
 ***A**** is a good algorithm, and in the tables provided it is easily noticeble how **a good heuristic can improve both the time and memory used**. The algorithm modifes breadth first by sorting the nodes in the queue by cost. This leads to an average reduction of 98.19% for time.
 
-**Optimizing A*** leads to an even better result, but for the disadvantage of computing only one solution. In the table for input 3 we can see that the total number of nodes generated is 11035, and with "euristica admisibila 3" we reduce the number of generated nodes to only 161, which is close to 98.54% less. Same with the time, a reduction of close to 98.91% from the time it takes breadth first to solve. Regarding A*, the optimization gives an average reduction of 53.10% for memory usage and 60.99% for time.
+**Optimizing A*** leads to an even better result, but for the disadvantage of computing only one solution. In the table for input 3 we can see that the total number of nodes generated is 11035, and with "euristica admisibila 3" we reduce the number of generated nodes to only 161, which is close to 98.54% less. Same with the time, a reduction of close to 98.91% from the time it takes breadth first to solve. 
 
 ***Ida**** performs well for finding **multiple solutions close to each other in the graph**, it takes a longer time otherwise and uses recursion, but keeps the lowest number of nodes in memory. 
 
