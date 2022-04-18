@@ -22,7 +22,7 @@
     - [Optimization](#optimization)
   - [Time analization](#time-analization)
       - [Input 3 - minimum solution: length 6, cost 32](#input-3---minimum-solution-length-6-cost-32)
-      - [Input 4 - minimum solution: length 10, cost 47](#input-4---minimum-solution-length-10-cost-47)
+      - [Input 4 - minimum solution: length 6, cost 31](#input-4---minimum-solution-length-6-cost-31)
     - [Conclusions](#conclusions)
 
 ## Context
