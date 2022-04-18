@@ -33,752 +33,27 @@ Solutii pentru agloritmul depth_first
 
 Euristica folosita: euristica banala
 _________________________________________________
-Solutie: 
-1)
-08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
-2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 12  
-3)
-08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 400 de la statia "Hotel Gogonel" la statia "Strada Pisicilor" pe traseul "Hotel Gogonel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 5min. Timp asteptare: 0min
-Cost pana acum 17  
-4)
-08:08
-Omul Gigel se deplaseaza cu autobuzul 200 de la statia "Gandaceni" la statia "Piata 3 castraveti" pe traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->Buget: 77lei. Timp mers: 3min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 96lei. Timp mers: 8min. Timp asteptare: 0min
-Cost pana acum 23  
-5)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 68lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 94lei. Timp mers: 8min. Timp asteptare: 2min
-Cost pana acum 38  
-6)
-08:15
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Piata 3 castraveti" la statia "Parcul lui Gigel" pe traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 68lei. Timp mers: 10min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 94lei. Timp mers: 13min. Timp asteptare: 2min
-Cost pana acum 48  
-7)
-08:20
-Omul Gigel a coborat in statia "Parcul lui Gigel" din autobuzul 300. Buget: 68lei. Timp mers: 15min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Strada Pisicilor". Buget: 92lei. Timp mers: 13min. Timp asteptare: 7min
-Cost pana acum 60  
-8)
-08:25
-Omul Gigel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 66lei. Timp mers: 15min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 100. Buget: 92lei. Timp mers: 18min. Timp asteptare: 7min
-Cost pana acum 72  
-9)
-08:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 100. Buget: 66lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 57lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 90lei. Timp mers: 18min. Timp asteptare: 12min
-Cost pana acum 93  
-10)
-08:34
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 24min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 90lei. Timp mers: 22min. Timp asteptare: 12min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 88lei. Timp mers: 22min. Timp asteptare: 12min
-Cost pana acum 103  
-11)
-08:38
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 28min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 88lei. Timp mers: 26min. Timp asteptare: 12min
-Cost pana acum 111  
-12)
-08:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 57lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 48lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 86lei. Timp mers: 26min. Timp asteptare: 14min
-Cost pana acum 126  
-13)
-08:45
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 48lei. Timp mers: 35min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 86lei. Timp mers: 31min. Timp asteptare: 14min
-Cost pana acum 136  
-14)
-08:50
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 48lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 39lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 77lei. Timp mers: 31min. Timp asteptare: 19min
-Cost pana acum 164  
-15)
-09:00
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 39lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 30lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 300. Buget: 77lei. Timp mers: 41min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 41min. Timp asteptare: 19min
-Cost pana acum 195  
-16)
-09:04
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 54min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 45min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Piata 3 castraveti". Buget: 73lei. Timp mers: 45min. Timp asteptare: 19min
-Cost pana acum 205  
-17)
-09:08
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 58min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 400. Buget: 73lei. Timp mers: 49min. Timp asteptare: 19min
-Cost pana acum 213  
-18)
-09:10
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 30lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 21lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Strada Pisicilor". Buget: 64lei. Timp mers: 49min. Timp asteptare: 21min
-Cost pana acum 235  
-19)
-09:20
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 21lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 12lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 300. Buget: 64lei. Timp mers: 59min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 62lei. Timp mers: 59min. Timp asteptare: 21min
-Cost pana acum 266  
-20)
-09:24
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 74min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 62lei. Timp mers: 63min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 60lei. Timp mers: 63min. Timp asteptare: 21min
-Cost pana acum 276  
-21)
-09:28
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 78min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 60lei. Timp mers: 67min. Timp asteptare: 21min
-Cost pana acum 284  
-22)
-09:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 12lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 3lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 58lei. Timp mers: 67min. Timp asteptare: 23min
-Cost pana acum 299  
-23)
-09:35
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 3lei. Timp mers: 85min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 58lei. Timp mers: 72min. Timp asteptare: 23min
-Cost pana acum 309  
-24)
-09:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 3lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: -6lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 49lei. Timp mers: 72min. Timp asteptare: 28min
-Cost pana acum 337  
-25)
-10:00
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: -6lei. Timp mers: 110min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 300 si si-a terminat traseul. Buget: 49lei. Timp mers: 92min. Timp asteptare: 28min
-Cost pana acum 377  
-Lungimea drumului este: 52 
-Costul drumului este: 377.0
-Numarul maxim de noduri in memorie: 9
-Numarul total de noduri calculate: 4991
-Solutia a fost gasita in 14.139020919799805
+Stopped because of timeout
 
 
 Euristica folosita: euristica admisibila 1
 _________________________________________________
-Solutie: 
-1)
-08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
-2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 12  
-3)
-08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 400 de la statia "Hotel Gogonel" la statia "Strada Pisicilor" pe traseul "Hotel Gogonel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 5min. Timp asteptare: 0min
-Cost pana acum 17  
-4)
-08:08
-Omul Gigel se deplaseaza cu autobuzul 200 de la statia "Gandaceni" la statia "Piata 3 castraveti" pe traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->Buget: 77lei. Timp mers: 3min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 96lei. Timp mers: 8min. Timp asteptare: 0min
-Cost pana acum 23  
-5)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 68lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 94lei. Timp mers: 8min. Timp asteptare: 2min
-Cost pana acum 38  
-6)
-08:15
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Piata 3 castraveti" la statia "Parcul lui Gigel" pe traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 68lei. Timp mers: 10min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 94lei. Timp mers: 13min. Timp asteptare: 2min
-Cost pana acum 48  
-7)
-08:20
-Omul Gigel a coborat in statia "Parcul lui Gigel" din autobuzul 300. Buget: 68lei. Timp mers: 15min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Strada Pisicilor". Buget: 92lei. Timp mers: 13min. Timp asteptare: 7min
-Cost pana acum 60  
-8)
-08:25
-Omul Gigel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 66lei. Timp mers: 15min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 100. Buget: 92lei. Timp mers: 18min. Timp asteptare: 7min
-Cost pana acum 72  
-9)
-08:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 100. Buget: 66lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 57lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 90lei. Timp mers: 18min. Timp asteptare: 12min
-Cost pana acum 93  
-10)
-08:34
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 24min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 90lei. Timp mers: 22min. Timp asteptare: 12min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 88lei. Timp mers: 22min. Timp asteptare: 12min
-Cost pana acum 103  
-11)
-08:38
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 28min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 88lei. Timp mers: 26min. Timp asteptare: 12min
-Cost pana acum 111  
-12)
-08:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 57lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 48lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 86lei. Timp mers: 26min. Timp asteptare: 14min
-Cost pana acum 126  
-13)
-08:45
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 48lei. Timp mers: 35min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 86lei. Timp mers: 31min. Timp asteptare: 14min
-Cost pana acum 136  
-14)
-08:50
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 48lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 39lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 77lei. Timp mers: 31min. Timp asteptare: 19min
-Cost pana acum 164  
-15)
-09:00
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 39lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 30lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 300. Buget: 77lei. Timp mers: 41min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 41min. Timp asteptare: 19min
-Cost pana acum 195  
-16)
-09:04
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 54min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 45min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Piata 3 castraveti". Buget: 73lei. Timp mers: 45min. Timp asteptare: 19min
-Cost pana acum 205  
-17)
-09:08
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 58min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 400. Buget: 73lei. Timp mers: 49min. Timp asteptare: 19min
-Cost pana acum 213  
-18)
-09:10
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 30lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 21lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Strada Pisicilor". Buget: 64lei. Timp mers: 49min. Timp asteptare: 21min
-Cost pana acum 235  
-19)
-09:20
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 21lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 12lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 300. Buget: 64lei. Timp mers: 59min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 62lei. Timp mers: 59min. Timp asteptare: 21min
-Cost pana acum 266  
-20)
-09:24
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 74min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 62lei. Timp mers: 63min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 60lei. Timp mers: 63min. Timp asteptare: 21min
-Cost pana acum 276  
-21)
-09:28
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 78min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 60lei. Timp mers: 67min. Timp asteptare: 21min
-Cost pana acum 284  
-22)
-09:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 12lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 3lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 58lei. Timp mers: 67min. Timp asteptare: 23min
-Cost pana acum 299  
-23)
-09:35
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 3lei. Timp mers: 85min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 58lei. Timp mers: 72min. Timp asteptare: 23min
-Cost pana acum 309  
-24)
-09:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 3lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: -6lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 49lei. Timp mers: 72min. Timp asteptare: 28min
-Cost pana acum 337  
-25)
-10:00
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: -6lei. Timp mers: 110min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 300 si si-a terminat traseul. Buget: 49lei. Timp mers: 92min. Timp asteptare: 28min
-Cost pana acum 377  
-Lungimea drumului este: 52 
-Costul drumului este: 377.0
-Numarul maxim de noduri in memorie: 9
-Numarul total de noduri calculate: 4991
-Solutia a fost gasita in 14.369978189468384
+Stopped because of timeout
 
 
 Euristica folosita: euristica admisibila 2
 _________________________________________________
-Solutie: 
-1)
-08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
-2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 12  
-3)
-08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 400 de la statia "Hotel Gogonel" la statia "Strada Pisicilor" pe traseul "Hotel Gogonel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 5min. Timp asteptare: 0min
-Cost pana acum 17  
-4)
-08:08
-Omul Gigel se deplaseaza cu autobuzul 200 de la statia "Gandaceni" la statia "Piata 3 castraveti" pe traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->Buget: 77lei. Timp mers: 3min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 96lei. Timp mers: 8min. Timp asteptare: 0min
-Cost pana acum 23  
-5)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 68lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 94lei. Timp mers: 8min. Timp asteptare: 2min
-Cost pana acum 38  
-6)
-08:15
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Piata 3 castraveti" la statia "Parcul lui Gigel" pe traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 68lei. Timp mers: 10min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 94lei. Timp mers: 13min. Timp asteptare: 2min
-Cost pana acum 48  
-7)
-08:20
-Omul Gigel a coborat in statia "Parcul lui Gigel" din autobuzul 300. Buget: 68lei. Timp mers: 15min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Strada Pisicilor". Buget: 92lei. Timp mers: 13min. Timp asteptare: 7min
-Cost pana acum 60  
-8)
-08:25
-Omul Gigel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 66lei. Timp mers: 15min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 100. Buget: 92lei. Timp mers: 18min. Timp asteptare: 7min
-Cost pana acum 72  
-9)
-08:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 100. Buget: 66lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 57lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 90lei. Timp mers: 18min. Timp asteptare: 12min
-Cost pana acum 93  
-10)
-08:34
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 24min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 90lei. Timp mers: 22min. Timp asteptare: 12min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 88lei. Timp mers: 22min. Timp asteptare: 12min
-Cost pana acum 103  
-11)
-08:38
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 28min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 88lei. Timp mers: 26min. Timp asteptare: 12min
-Cost pana acum 111  
-12)
-08:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 57lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 48lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 86lei. Timp mers: 26min. Timp asteptare: 14min
-Cost pana acum 126  
-13)
-08:45
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 48lei. Timp mers: 35min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 86lei. Timp mers: 31min. Timp asteptare: 14min
-Cost pana acum 136  
-14)
-08:50
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 48lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 39lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 77lei. Timp mers: 31min. Timp asteptare: 19min
-Cost pana acum 164  
-15)
-09:00
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 39lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 30lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 300. Buget: 77lei. Timp mers: 41min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 41min. Timp asteptare: 19min
-Cost pana acum 195  
-16)
-09:04
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 54min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 45min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Piata 3 castraveti". Buget: 73lei. Timp mers: 45min. Timp asteptare: 19min
-Cost pana acum 205  
-17)
-09:08
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 58min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 400. Buget: 73lei. Timp mers: 49min. Timp asteptare: 19min
-Cost pana acum 213  
-18)
-09:10
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 30lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 21lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Strada Pisicilor". Buget: 64lei. Timp mers: 49min. Timp asteptare: 21min
-Cost pana acum 235  
-19)
-09:20
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 21lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 12lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 300. Buget: 64lei. Timp mers: 59min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 62lei. Timp mers: 59min. Timp asteptare: 21min
-Cost pana acum 266  
-20)
-09:24
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 74min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 62lei. Timp mers: 63min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 60lei. Timp mers: 63min. Timp asteptare: 21min
-Cost pana acum 276  
-21)
-09:28
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 78min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 60lei. Timp mers: 67min. Timp asteptare: 21min
-Cost pana acum 284  
-22)
-09:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 12lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 3lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 58lei. Timp mers: 67min. Timp asteptare: 23min
-Cost pana acum 299  
-23)
-09:35
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 3lei. Timp mers: 85min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 58lei. Timp mers: 72min. Timp asteptare: 23min
-Cost pana acum 309  
-24)
-09:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 3lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: -6lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 49lei. Timp mers: 72min. Timp asteptare: 28min
-Cost pana acum 337  
-25)
-10:00
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: -6lei. Timp mers: 110min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 300 si si-a terminat traseul. Buget: 49lei. Timp mers: 92min. Timp asteptare: 28min
-Cost pana acum 377  
-Lungimea drumului este: 52 
-Costul drumului este: 377.0
-Numarul maxim de noduri in memorie: 9
-Numarul total de noduri calculate: 4991
-Solutia a fost gasita in 14.493999481201172
+Stopped because of timeout
 
 
 Euristica folosita: euristica admisibila 3
 _________________________________________________
-Solutie: 
-1)
-08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
-2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 12  
-3)
-08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 400 de la statia "Hotel Gogonel" la statia "Strada Pisicilor" pe traseul "Hotel Gogonel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 5min. Timp asteptare: 0min
-Cost pana acum 17  
-4)
-08:08
-Omul Gigel se deplaseaza cu autobuzul 200 de la statia "Gandaceni" la statia "Piata 3 castraveti" pe traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->Buget: 77lei. Timp mers: 3min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 96lei. Timp mers: 8min. Timp asteptare: 0min
-Cost pana acum 23  
-5)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 68lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 94lei. Timp mers: 8min. Timp asteptare: 2min
-Cost pana acum 38  
-6)
-08:15
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Piata 3 castraveti" la statia "Parcul lui Gigel" pe traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 68lei. Timp mers: 10min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 94lei. Timp mers: 13min. Timp asteptare: 2min
-Cost pana acum 48  
-7)
-08:20
-Omul Gigel a coborat in statia "Parcul lui Gigel" din autobuzul 300. Buget: 68lei. Timp mers: 15min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Strada Pisicilor". Buget: 92lei. Timp mers: 13min. Timp asteptare: 7min
-Cost pana acum 60  
-8)
-08:25
-Omul Gigel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 66lei. Timp mers: 15min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 100. Buget: 92lei. Timp mers: 18min. Timp asteptare: 7min
-Cost pana acum 72  
-9)
-08:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 100. Buget: 66lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 57lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 90lei. Timp mers: 18min. Timp asteptare: 12min
-Cost pana acum 93  
-10)
-08:34
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 24min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 90lei. Timp mers: 22min. Timp asteptare: 12min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 88lei. Timp mers: 22min. Timp asteptare: 12min
-Cost pana acum 103  
-11)
-08:38
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 28min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 88lei. Timp mers: 26min. Timp asteptare: 12min
-Cost pana acum 111  
-12)
-08:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 57lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 48lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 86lei. Timp mers: 26min. Timp asteptare: 14min
-Cost pana acum 126  
-13)
-08:45
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 48lei. Timp mers: 35min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 86lei. Timp mers: 31min. Timp asteptare: 14min
-Cost pana acum 136  
-14)
-08:50
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 48lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 39lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 77lei. Timp mers: 31min. Timp asteptare: 19min
-Cost pana acum 164  
-15)
-09:00
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 39lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 30lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 300. Buget: 77lei. Timp mers: 41min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 41min. Timp asteptare: 19min
-Cost pana acum 195  
-16)
-09:04
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 54min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 45min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Piata 3 castraveti". Buget: 73lei. Timp mers: 45min. Timp asteptare: 19min
-Cost pana acum 205  
-17)
-09:08
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 58min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 400. Buget: 73lei. Timp mers: 49min. Timp asteptare: 19min
-Cost pana acum 213  
-18)
-09:10
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 30lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 21lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Strada Pisicilor". Buget: 64lei. Timp mers: 49min. Timp asteptare: 21min
-Cost pana acum 235  
-19)
-09:20
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 21lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 12lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 300. Buget: 64lei. Timp mers: 59min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 62lei. Timp mers: 59min. Timp asteptare: 21min
-Cost pana acum 266  
-20)
-09:24
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 74min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 62lei. Timp mers: 63min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 60lei. Timp mers: 63min. Timp asteptare: 21min
-Cost pana acum 276  
-21)
-09:28
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 78min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 60lei. Timp mers: 67min. Timp asteptare: 21min
-Cost pana acum 284  
-22)
-09:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 12lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 3lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 58lei. Timp mers: 67min. Timp asteptare: 23min
-Cost pana acum 299  
-23)
-09:35
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 3lei. Timp mers: 85min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 58lei. Timp mers: 72min. Timp asteptare: 23min
-Cost pana acum 309  
-24)
-09:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 3lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: -6lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 49lei. Timp mers: 72min. Timp asteptare: 28min
-Cost pana acum 337  
-25)
-10:00
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: -6lei. Timp mers: 110min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 300 si si-a terminat traseul. Buget: 49lei. Timp mers: 92min. Timp asteptare: 28min
-Cost pana acum 377  
-Lungimea drumului este: 52 
-Costul drumului este: 377.0
-Numarul maxim de noduri in memorie: 9
-Numarul total de noduri calculate: 4991
-Solutia a fost gasita in 14.961001634597778
+Stopped because of timeout
 
 
 Euristica folosita: euristica neadmisibila
 _________________________________________________
-Solutie: 
-1)
-08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
-2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 12  
-3)
-08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 400 de la statia "Hotel Gogonel" la statia "Strada Pisicilor" pe traseul "Hotel Gogonel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 5min. Timp asteptare: 0min
-Cost pana acum 17  
-4)
-08:08
-Omul Gigel se deplaseaza cu autobuzul 200 de la statia "Gandaceni" la statia "Piata 3 castraveti" pe traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->Buget: 77lei. Timp mers: 3min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 96lei. Timp mers: 8min. Timp asteptare: 0min
-Cost pana acum 23  
-5)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 68lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 94lei. Timp mers: 8min. Timp asteptare: 2min
-Cost pana acum 38  
-6)
-08:15
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Piata 3 castraveti" la statia "Parcul lui Gigel" pe traseul "Piata 3 castraveti"->"Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 68lei. Timp mers: 10min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 94lei. Timp mers: 13min. Timp asteptare: 2min
-Cost pana acum 48  
-7)
-08:20
-Omul Gigel a coborat in statia "Parcul lui Gigel" din autobuzul 300. Buget: 68lei. Timp mers: 15min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Strada Pisicilor". Buget: 92lei. Timp mers: 13min. Timp asteptare: 7min
-Cost pana acum 60  
-8)
-08:25
-Omul Gigel a urcat in statia "Parcul lui Gigel" in autobuzul 100 pentru traseul "Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 66lei. Timp mers: 15min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 100. Buget: 92lei. Timp mers: 18min. Timp asteptare: 7min
-Cost pana acum 72  
-9)
-08:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 100. Buget: 66lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 57lei. Timp mers: 20min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 90lei. Timp mers: 18min. Timp asteptare: 12min
-Cost pana acum 93  
-10)
-08:34
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 24min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 90lei. Timp mers: 22min. Timp asteptare: 12min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 88lei. Timp mers: 22min. Timp asteptare: 12min
-Cost pana acum 103  
-11)
-08:38
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 57lei. Timp mers: 28min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 88lei. Timp mers: 26min. Timp asteptare: 12min
-Cost pana acum 111  
-12)
-08:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 57lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 48lei. Timp mers: 30min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 86lei. Timp mers: 26min. Timp asteptare: 14min
-Cost pana acum 126  
-13)
-08:45
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 48lei. Timp mers: 35min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 86lei. Timp mers: 31min. Timp asteptare: 14min
-Cost pana acum 136  
-14)
-08:50
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 48lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 39lei. Timp mers: 40min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 77lei. Timp mers: 31min. Timp asteptare: 19min
-Cost pana acum 164  
-15)
-09:00
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 39lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 30lei. Timp mers: 50min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 300. Buget: 77lei. Timp mers: 41min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 41min. Timp asteptare: 19min
-Cost pana acum 195  
-16)
-09:04
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 54min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 45min. Timp asteptare: 19min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Piata 3 castraveti". Buget: 73lei. Timp mers: 45min. Timp asteptare: 19min
-Cost pana acum 205  
-17)
-09:08
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 30lei. Timp mers: 58min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Piata 3 castraveti" din autobuzul 400. Buget: 73lei. Timp mers: 49min. Timp asteptare: 19min
-Cost pana acum 213  
-18)
-09:10
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 30lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 21lei. Timp mers: 60min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Piata 3 castraveti" in autobuzul 300 pentru traseul "Piata 3 castraveti"->"Strada Pisicilor". Buget: 64lei. Timp mers: 49min. Timp asteptare: 21min
-Cost pana acum 235  
-19)
-09:20
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 21lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 12lei. Timp mers: 70min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 300. Buget: 64lei. Timp mers: 59min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 62lei. Timp mers: 59min. Timp asteptare: 21min
-Cost pana acum 266  
-20)
-09:24
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 74min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 62lei. Timp mers: 63min. Timp asteptare: 21min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 400 pentru traseul "Hotel Gogonel"->"Strada Pisicilor". Buget: 60lei. Timp mers: 63min. Timp asteptare: 21min
-Cost pana acum 276  
-21)
-09:28
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Gandaceni" la statia "Ciuperceni" pe traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel"Buget: 12lei. Timp mers: 78min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 60lei. Timp mers: 67min. Timp asteptare: 21min
-Cost pana acum 284  
-22)
-09:30
-Omul Gigel a coborat in statia "Ciuperceni" din autobuzul 300. Buget: 12lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Ciuperceni" in autobuzul 300 pentru traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 3lei. Timp mers: 80min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 100 pentru traseul "Strada Pisicilor"->"Parcul lui Gigel"->"Ciuperceni"->"Hotel Gogonel". Buget: 58lei. Timp mers: 67min. Timp asteptare: 23min
-Cost pana acum 299  
-23)
-09:35
-Omul Gigel se deplaseaza cu autobuzul 300 de la statia "Ciuperceni" la statia "Gandaceni" pe traseul "Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor"Buget: 3lei. Timp mers: 85min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Parcul lui Gigel" din autobuzul 100. Buget: 58lei. Timp mers: 72min. Timp asteptare: 23min
-Cost pana acum 309  
-24)
-09:40
-Omul Gigel a coborat in statia "Gandaceni" din autobuzul 300. Buget: 3lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 300 pentru traseul "Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: -6lei. Timp mers: 90min. Timp asteptare: 10min
-Omul Ionel a urcat in statia "Parcul lui Gigel" in autobuzul 300 pentru traseul "Parcul lui Gigel"->"Gandaceni"->"Ciuperceni"->"Dealul melcului schiop"->"Hotel Gogonel". Buget: 49lei. Timp mers: 72min. Timp asteptare: 28min
-Cost pana acum 337  
-25)
-10:00
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: -6lei. Timp mers: 110min. Timp asteptare: 10min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 300 si si-a terminat traseul. Buget: 49lei. Timp mers: 92min. Timp asteptare: 28min
-Cost pana acum 377  
-Lungimea drumului este: 52 
-Costul drumului este: 377.0
-Numarul maxim de noduri in memorie: 9
-Numarul total de noduri calculate: 4991
-Solutia a fost gasita in 14.552016258239746
+Stopped because of timeout
 =================================================
 Solutii pentru agloritmul depth_first_iterativ
 =================================================
@@ -796,12 +71,46 @@ Stopped because of timeout
 
 Euristica folosita: euristica admisibila 2
 _________________________________________________
-Stopped because of timeout
+Solutie: 
+1)
+08:00
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
+2)
+08:05
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 14
+Numarul total de noduri calculate: 12179
+Solutia a fost gasita in 25.008015394210815
 
 
 Euristica folosita: euristica admisibila 3
 _________________________________________________
-Stopped because of timeout
+Solutie: 
+1)
+08:00
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
+2)
+08:05
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 14
+Numarul total de noduri calculate: 12179
+Solutia a fost gasita in 24.547014951705933
 
 
 Euristica folosita: euristica neadmisibila
@@ -814,7 +123,24 @@ Solutii pentru agloritmul a_star
 
 Euristica folosita: euristica banala
 _________________________________________________
-Stopped because of timeout
+Solutie: 
+1)
+08:00
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
+2)
+08:05
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 3612
+Numarul total de noduri calculate: 4934
+Solutia a fost gasita in 10.419013738632202
 
 
 Euristica folosita: euristica admisibila 1
@@ -822,48 +148,21 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:14
-Omul Gigel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 9min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 100 de la statia "Hotel Gogonel" la statia "Ciuperceni" pe traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 8min. Timp asteptare: 6min
-Cost pana acum 37  
-6)
-08:15
-Omul Gigel asteapta in statia "Hotel Gogonel". Buget: 75lei. Timp mers: 9min. Timp asteptare: 6min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-7)
-08:20
-Omul Gigel a urcat in statia "Hotel Gogonel" in autobuzul 300 pentru traseul "Hotel Gogonel"->"Dealul melcului schiop"->"Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 66lei. Timp mers: 9min. Timp asteptare: 11min
-Cost pana acum 53  
-8)
-08:30
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: 66lei. Timp mers: 19min. Timp asteptare: 11min
-Cost pana acum 63  
-Lungimea drumului este: 10 
-Costul drumului este: 63.0
-Numarul maxim de noduri in memorie: 10080
-Numarul total de noduri calculate: 13849
-Solutia a fost gasita in 37.96601724624634
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 1629
+Numarul total de noduri calculate: 2107
+Solutia a fost gasita in 3.4609830379486084
 
 
 Euristica folosita: euristica admisibila 2
@@ -871,48 +170,21 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:14
-Omul Gigel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 9min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 100 de la statia "Hotel Gogonel" la statia "Ciuperceni" pe traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 8min. Timp asteptare: 6min
-Cost pana acum 37  
-6)
-08:15
-Omul Gigel asteapta in statia "Hotel Gogonel". Buget: 75lei. Timp mers: 9min. Timp asteptare: 6min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-7)
-08:20
-Omul Gigel a urcat in statia "Hotel Gogonel" in autobuzul 300 pentru traseul "Hotel Gogonel"->"Dealul melcului schiop"->"Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 66lei. Timp mers: 9min. Timp asteptare: 11min
-Cost pana acum 53  
-8)
-08:30
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: 66lei. Timp mers: 19min. Timp asteptare: 11min
-Cost pana acum 63  
-Lungimea drumului este: 10 
-Costul drumului este: 63.0
-Numarul maxim de noduri in memorie: 5029
-Numarul total de noduri calculate: 6804
-Solutia a fost gasita in 14.757994890213013
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 3612
+Numarul total de noduri calculate: 4934
+Solutia a fost gasita in 11.755480766296387
 
 
 Euristica folosita: euristica admisibila 3
@@ -920,48 +192,21 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:14
-Omul Gigel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 9min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 100 de la statia "Hotel Gogonel" la statia "Ciuperceni" pe traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 8min. Timp asteptare: 6min
-Cost pana acum 37  
-6)
-08:15
-Omul Gigel asteapta in statia "Hotel Gogonel". Buget: 75lei. Timp mers: 9min. Timp asteptare: 6min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-7)
-08:20
-Omul Gigel a urcat in statia "Hotel Gogonel" in autobuzul 300 pentru traseul "Hotel Gogonel"->"Dealul melcului schiop"->"Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 66lei. Timp mers: 9min. Timp asteptare: 11min
-Cost pana acum 53  
-8)
-08:30
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: 66lei. Timp mers: 19min. Timp asteptare: 11min
-Cost pana acum 63  
-Lungimea drumului este: 10 
-Costul drumului este: 63.0
-Numarul maxim de noduri in memorie: 3955
-Numarul total de noduri calculate: 5357
-Solutia a fost gasita in 10.558010578155518
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 3065
+Numarul total de noduri calculate: 4149
+Solutia a fost gasita in 9.497019529342651
 
 
 Euristica folosita: euristica neadmisibila
@@ -969,55 +214,35 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 2 pentru traseul "B"->"M"->"N"->"O"->"P". Buget: 78lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 9  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel se deplaseaza cu autobuzul 2 de la statia "M" la statia "N" pe traseul "M"->"N"->"O"->"P"Buget: 78lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 24  
+3)
 08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:15
-Omul Gigel se deplaseaza cu autobuzul 400 de la statia "Hotel Gogonel" la statia "Strada Pisicilor" pe traseul "Hotel Gogonel"->"Strada Pisicilor"Buget: 75lei. Timp mers: 10min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-6)
-08:18
-Omul Gigel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 75lei. Timp mers: 13min. Timp asteptare: 5min
-Cost pana acum 42  
-7)
+Omul Gigel a coborat in statia "N" din autobuzul 2. Buget: 78lei. Timp mers: 10min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "N" in autobuzul 2 pentru traseul "N"->"M"->"B". Buget: 76lei. Timp mers: 10min. Timp asteptare: 0min
+Cost pana acum 31  
+4)
 08:20
-Omul Gigel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 73lei. Timp mers: 13min. Timp asteptare: 7min
-Cost pana acum 46  
-8)
-08:28
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 400. Buget: 73lei. Timp mers: 21min. Timp asteptare: 7min
-Cost pana acum 54  
-9)
-08:30
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 200 pentru traseul "Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 70lei. Timp mers: 21min. Timp asteptare: 9min
-Cost pana acum 59  
-10)
-08:35
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 200 si si-a terminat traseul. Buget: 70lei. Timp mers: 26min. Timp asteptare: 9min
-Cost pana acum 64  
-Lungimea drumului este: 12 
-Costul drumului este: 64.0
-Numarul maxim de noduri in memorie: 174
-Numarul total de noduri calculate: 237
-Solutia a fost gasita in 0.40398430824279785
+Omul Gigel a coborat in statia "B" din autobuzul 2. Buget: 76lei. Timp mers: 20min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 67lei. Timp mers: 20min. Timp asteptare: 0min
+Cost pana acum 50  
+5)
+08:25
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 67lei. Timp mers: 25min. Timp asteptare: 0min
+Cost pana acum 55  
+Lungimea drumului este: 10 
+Costul drumului este: 55.0
+Numarul maxim de noduri in memorie: 1316
+Numarul total de noduri calculate: 2024
+Solutia a fost gasita in 4.672001600265503
 =================================================
 Solutii pentru agloritmul a_star_optimizat
 =================================================
@@ -1028,48 +253,21 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:14
-Omul Gigel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 9min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 100 de la statia "Hotel Gogonel" la statia "Ciuperceni" pe traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 8min. Timp asteptare: 6min
-Cost pana acum 37  
-6)
-08:15
-Omul Gigel asteapta in statia "Hotel Gogonel". Buget: 75lei. Timp mers: 9min. Timp asteptare: 6min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-7)
-08:20
-Omul Gigel a urcat in statia "Hotel Gogonel" in autobuzul 300 pentru traseul "Hotel Gogonel"->"Dealul melcului schiop"->"Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 66lei. Timp mers: 9min. Timp asteptare: 11min
-Cost pana acum 53  
-8)
-08:30
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: 66lei. Timp mers: 19min. Timp asteptare: 11min
-Cost pana acum 63  
-Lungimea drumului este: 10 
-Costul drumului este: 63.0
-Numarul maxim de noduri in memorie: 3893
-Numarul total de noduri calculate: 4704
-Solutia a fost gasita in 18.940001726150513
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 674
+Numarul total de noduri calculate: 944
+Solutia a fost gasita in 1.892014741897583
 
 
 Euristica folosita: euristica admisibila 1
@@ -1077,48 +275,21 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:14
-Omul Gigel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 9min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 100 de la statia "Hotel Gogonel" la statia "Ciuperceni" pe traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 8min. Timp asteptare: 6min
-Cost pana acum 37  
-6)
-08:15
-Omul Gigel asteapta in statia "Hotel Gogonel". Buget: 75lei. Timp mers: 9min. Timp asteptare: 6min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-7)
-08:20
-Omul Gigel a urcat in statia "Hotel Gogonel" in autobuzul 300 pentru traseul "Hotel Gogonel"->"Dealul melcului schiop"->"Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 66lei. Timp mers: 9min. Timp asteptare: 11min
-Cost pana acum 53  
-8)
-08:30
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: 66lei. Timp mers: 19min. Timp asteptare: 11min
-Cost pana acum 63  
-Lungimea drumului este: 10 
-Costul drumului este: 63.0
-Numarul maxim de noduri in memorie: 2676
-Numarul total de noduri calculate: 3244
-Solutia a fost gasita in 10.389994382858276
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 400
+Numarul total de noduri calculate: 601
+Solutia a fost gasita in 0.9695334434509277
 
 
 Euristica folosita: euristica admisibila 2
@@ -1126,48 +297,21 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:14
-Omul Gigel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 9min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 100 de la statia "Hotel Gogonel" la statia "Ciuperceni" pe traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 8min. Timp asteptare: 6min
-Cost pana acum 37  
-6)
-08:15
-Omul Gigel asteapta in statia "Hotel Gogonel". Buget: 75lei. Timp mers: 9min. Timp asteptare: 6min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-7)
-08:20
-Omul Gigel a urcat in statia "Hotel Gogonel" in autobuzul 300 pentru traseul "Hotel Gogonel"->"Dealul melcului schiop"->"Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 66lei. Timp mers: 9min. Timp asteptare: 11min
-Cost pana acum 53  
-8)
-08:30
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: 66lei. Timp mers: 19min. Timp asteptare: 11min
-Cost pana acum 63  
-Lungimea drumului este: 10 
-Costul drumului este: 63.0
-Numarul maxim de noduri in memorie: 1565
-Numarul total de noduri calculate: 1798
-Solutia a fost gasita in 4.836984634399414
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 674
+Numarul total de noduri calculate: 944
+Solutia a fost gasita in 1.8060011863708496
 
 
 Euristica folosita: euristica admisibila 3
@@ -1175,48 +319,21 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:14
-Omul Gigel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 75lei. Timp mers: 9min. Timp asteptare: 5min
-Omul Ionel se deplaseaza cu autobuzul 100 de la statia "Hotel Gogonel" la statia "Ciuperceni" pe traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor"Buget: 96lei. Timp mers: 8min. Timp asteptare: 6min
-Cost pana acum 37  
-6)
-08:15
-Omul Gigel asteapta in statia "Hotel Gogonel". Buget: 75lei. Timp mers: 9min. Timp asteptare: 6min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-7)
-08:20
-Omul Gigel a urcat in statia "Hotel Gogonel" in autobuzul 300 pentru traseul "Hotel Gogonel"->"Dealul melcului schiop"->"Ciuperceni"->"Gandaceni"->"Parcul lui Gigel"->"Piata 3 castraveti"->"Strada Pisicilor". Buget: 66lei. Timp mers: 9min. Timp asteptare: 11min
-Cost pana acum 53  
-8)
-08:30
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 300 si si-a terminat traseul. Buget: 66lei. Timp mers: 19min. Timp asteptare: 11min
-Cost pana acum 63  
-Lungimea drumului este: 10 
-Costul drumului este: 63.0
-Numarul maxim de noduri in memorie: 1231
-Numarul total de noduri calculate: 1400
-Solutia a fost gasita in 3.321995258331299
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 609
+Numarul total de noduri calculate: 871
+Solutia a fost gasita in 1.587998867034912
 
 
 Euristica folosita: euristica neadmisibila
@@ -1224,55 +341,35 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 2 pentru traseul "B"->"M"->"N"->"O"->"P". Buget: 78lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 9  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel se deplaseaza cu autobuzul 2 de la statia "M" la statia "N" pe traseul "M"->"N"->"O"->"P"Buget: 78lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 24  
+3)
 08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
-08:15
-Omul Gigel se deplaseaza cu autobuzul 400 de la statia "Hotel Gogonel" la statia "Strada Pisicilor" pe traseul "Hotel Gogonel"->"Strada Pisicilor"Buget: 75lei. Timp mers: 10min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-6)
-08:18
-Omul Gigel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 75lei. Timp mers: 13min. Timp asteptare: 5min
-Cost pana acum 42  
-7)
+Omul Gigel a coborat in statia "N" din autobuzul 2. Buget: 78lei. Timp mers: 10min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "N" in autobuzul 2 pentru traseul "N"->"M"->"B". Buget: 76lei. Timp mers: 10min. Timp asteptare: 0min
+Cost pana acum 31  
+4)
 08:20
-Omul Gigel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 73lei. Timp mers: 13min. Timp asteptare: 7min
-Cost pana acum 46  
-8)
-08:28
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 400. Buget: 73lei. Timp mers: 21min. Timp asteptare: 7min
-Cost pana acum 54  
-9)
-08:30
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 200 pentru traseul "Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 70lei. Timp mers: 21min. Timp asteptare: 9min
-Cost pana acum 59  
-10)
-08:35
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 200 si si-a terminat traseul. Buget: 70lei. Timp mers: 26min. Timp asteptare: 9min
-Cost pana acum 64  
-Lungimea drumului este: 12 
-Costul drumului este: 64.0
-Numarul maxim de noduri in memorie: 130
-Numarul total de noduri calculate: 147
-Solutia a fost gasita in 0.24300336837768555
+Omul Gigel a coborat in statia "B" din autobuzul 2. Buget: 76lei. Timp mers: 20min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 67lei. Timp mers: 20min. Timp asteptare: 0min
+Cost pana acum 50  
+5)
+08:25
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 67lei. Timp mers: 25min. Timp asteptare: 0min
+Cost pana acum 55  
+Lungimea drumului este: 10 
+Costul drumului este: 55.0
+Numarul maxim de noduri in memorie: 346
+Numarul total de noduri calculate: 502
+Solutia a fost gasita in 0.9330270290374756
 =================================================
 Solutii pentru agloritmul ida_star
 =================================================
@@ -1285,7 +382,24 @@ Stopped because of timeout
 
 Euristica folosita: euristica admisibila 1
 _________________________________________________
-Stopped because of timeout
+Solutie: 
+1)
+08:00
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 71lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 16  
+2)
+08:05
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 71lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 31  
+Lungimea drumului este: 6 
+Costul drumului este: 31.0
+Numarul maxim de noduri in memorie: 14
+Numarul total de noduri calculate: 9717
+Solutia a fost gasita in 15.042999744415283
 
 
 Euristica folosita: euristica admisibila 2
@@ -1303,52 +417,31 @@ _________________________________________________
 Solutie: 
 1)
 08:00
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 0min
-Omul Ionel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
-Cost pana acum 2  
+Omul Costel a urcat in statia "C" in autobuzul 500 pentru traseul "C"->"E". Buget: 95lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Gigel a urcat in statia "B" in autobuzul 2 pentru traseul "B"->"M"->"N"->"O"->"P". Buget: 78lei. Timp mers: 0min. Timp asteptare: 0min
+Omul Ionel a urcat in statia "A" in autobuzul 100 pentru traseul "A"->"F". Buget: 98lei. Timp mers: 0min. Timp asteptare: 0min
+Cost pana acum 9  
 2)
-08:04
-Omul Gigel asteapta in statia "Gandaceni". Buget: 80lei. Timp mers: 0min. Timp asteptare: 4min
-Omul Ionel a coborat in statia "Hotel Gogonel" din autobuzul 400. Buget: 98lei. Timp mers: 4min. Timp asteptare: 0min
-Cost pana acum 10  
-3)
 08:05
-Omul Gigel a urcat in statia "Gandaceni" in autobuzul 200 pentru traseul "Gandaceni"->"Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 77lei. Timp mers: 0min. Timp asteptare: 5min
-Omul Ionel asteapta in statia "Hotel Gogonel". Buget: 98lei. Timp mers: 4min. Timp asteptare: 1min
-Cost pana acum 15  
-4)
-08:10
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 200. Buget: 77lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 400 pentru traseul "Piata 3 castraveti"->"Hotel Gogonel"->"Strada Pisicilor". Buget: 75lei. Timp mers: 5min. Timp asteptare: 5min
-Omul Ionel a urcat in statia "Hotel Gogonel" in autobuzul 100 pentru traseul "Hotel Gogonel"->"Ciuperceni"->"Parcul lui Gigel"->"Strada Pisicilor". Buget: 96lei. Timp mers: 4min. Timp asteptare: 6min
-Cost pana acum 29  
-5)
+Omul Costel a coborat in statia "E" din autobuzul 500 si si-a terminat traseul. Buget: 95lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Gigel a coborat in statia "M" din autobuzul 2. Buget: 78lei. Timp mers: 5min. Timp asteptare: 0min
+Omul Ionel a coborat in statia "F" din autobuzul 100 si si-a terminat traseul. Buget: 98lei. Timp mers: 5min. Timp asteptare: 0min
+Cost pana acum 24  
+3)
 08:15
-Omul Gigel se deplaseaza cu autobuzul 400 de la statia "Hotel Gogonel" la statia "Strada Pisicilor" pe traseul "Hotel Gogonel"->"Strada Pisicilor"Buget: 75lei. Timp mers: 10min. Timp asteptare: 5min
-Omul Ionel a coborat in statia "Ciuperceni" din autobuzul 100 si si-a terminat traseul. Buget: 96lei. Timp mers: 9min. Timp asteptare: 6min
-Cost pana acum 39  
-6)
-08:18
-Omul Gigel a coborat in statia "Strada Pisicilor" din autobuzul 400. Buget: 75lei. Timp mers: 13min. Timp asteptare: 5min
-Cost pana acum 42  
-7)
+Omul Gigel a urcat in statia "M" in autobuzul 2 pentru traseul "M"->"B". Buget: 76lei. Timp mers: 5min. Timp asteptare: 10min
+Cost pana acum 36  
+4)
 08:20
-Omul Gigel a urcat in statia "Strada Pisicilor" in autobuzul 400 pentru traseul "Strada Pisicilor"->"Hotel Gogonel"->"Piata 3 castraveti". Buget: 73lei. Timp mers: 13min. Timp asteptare: 7min
-Cost pana acum 46  
-8)
-08:28
-Omul Gigel a coborat in statia "Piata 3 castraveti" din autobuzul 400. Buget: 73lei. Timp mers: 21min. Timp asteptare: 7min
-Cost pana acum 54  
-9)
-08:30
-Omul Gigel a urcat in statia "Piata 3 castraveti" in autobuzul 200 pentru traseul "Piata 3 castraveti"->"Dealul melcului schiop"->. Buget: 70lei. Timp mers: 21min. Timp asteptare: 9min
-Cost pana acum 59  
-10)
-08:35
-Omul Gigel a coborat in statia "Dealul melcului schiop" din autobuzul 200 si si-a terminat traseul. Buget: 70lei. Timp mers: 26min. Timp asteptare: 9min
-Cost pana acum 64  
-Lungimea drumului este: 12 
-Costul drumului este: 64.0
-Numarul maxim de noduri in memorie: 9
-Numarul total de noduri calculate: 398
-Solutia a fost gasita in 0.6340134143829346
+Omul Gigel a coborat in statia "B" din autobuzul 2. Buget: 76lei. Timp mers: 10min. Timp asteptare: 10min
+Omul Gigel a urcat in statia "B" in autobuzul 300 pentru traseul "B"->"C". Buget: 67lei. Timp mers: 10min. Timp asteptare: 10min
+Cost pana acum 50  
+5)
+08:25
+Omul Gigel a coborat in statia "C" din autobuzul 300 si si-a terminat traseul. Buget: 67lei. Timp mers: 15min. Timp asteptare: 10min
+Cost pana acum 55  
+Lungimea drumului este: 10 
+Costul drumului este: 55.0
+Numarul maxim de noduri in memorie: 14
+Numarul total de noduri calculate: 7947
+Solutia a fost gasita in 15.563000917434692
