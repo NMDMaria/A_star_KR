@@ -179,8 +179,8 @@ Cost pana acum: 3.
 ## Heuristics
 ### "Euristica banală"
 A simple approach. If the **state is final** evidently the estimated cost to a final state is **0**, but if it **isn't final** it means there's at least one of the following actions that can take place:
- - Person got down from a bus $\rightarrow$ **at least 1 minute passed**, because a person can't get down from a bus the moment they boarded it
- - Person boarded a bus $\rightarrow$ **person spent money** on the ticket, also **has to unboard** at a future time $\rightarrow$ at least 1 minute to travel to the next station and get down
+ - Person got down from a bus -> **at least 1 minute passed**, because a person can't get down from a bus the moment they boarded it
+ - Person boarded a bus -> **person spent money** on the ticket, also **has to unboard** at a future time -> at least 1 minute to travel to the next station and get down
 
 The actual cost it takes to reach a final state is more or equal to 1.
  
