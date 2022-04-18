@@ -56,9 +56,18 @@ Nodurile-stări în graful problemei vor fi momentele de timp când un om își 
 
 
 ## Cost
-The cost is the sum of time and money each person spent to reach every destination they had.
+The cost is the sum of time and money each person spent to reach every destination they had. The cost for a single move is the time in between nodes, and in case the person boarded the ticket price is added to the cost. *Example*:
+```
+Parent node time: 08:10
+Succesors:
+New node has been found: time 08:12, action is boarding a bus with ticket price 5lei, 3 persons left
+  => move cost = 3 * 2 (time each person spent in between moves) + 5 = 11
+New node has been found: time 08:15, action is unboarding, 3 persons left
+  => move cost = 3 * 2 = 6 (no money was spent on this move)
+```
 
 Costul va fi suma tuturor timpilor parcurși și a banilor consumați pentru toți cei N oameni (vom considera costul unei mutari ca suma celor două măsuri, deoarece vrem șî timpi cât mai mici dar și cât mai puțini bani consumați. Totuși trebuie să se memoreze separat pentru a fi indicate cu exactitate în afișarea drumului). Din momentul în care un om și-a terminat drumul, nu se mai adună nimic la cost pentru el.
+
 ## Running the application
 In the folder with the project, open a console and run:
 ```ps1
@@ -72,7 +81,14 @@ python multeautobuze.py <folderinput> <folderoutput> <nsol> <timeout>
 
 *timeout* - time in seconds after which the algorithm running should be stopped if it didn't finish, leave *0* for no timeout
 
+*Example*:
+``
+python multeautobuze.py folder_input folder_output 1 25
+``
+
+
 ## Input files
+
 ### Given input
 ***input1*** - input with **no finishing state**, not all destinations can be reached 
 
@@ -80,7 +96,7 @@ python multeautobuze.py <folderinput> <folderoutput> <nsol> <timeout>
 
 ***input3*** - input with **multiple solutions, no algorithms timeout**
 
-***input4*** - input with **multiple solutions, some algorithms timeout**, **"euristica inadmisibila" doesn't give the solution with minimum cost**
+***input4*** - **"euristica inadmisibila" doesn't give the solution with minimum cost**, Breadth first and depth first **timeout** for all heuristics
 
 
 ### Format
@@ -173,8 +189,8 @@ Each person **waiting** for a bus, that **hasn't finished** their destinations, 
 *Example*:
 ```
 Buses:
-200, 3 min move time, ticket price 1lei, stations "Station 1","Station 2"
-300, 10 min move time, ticket price 1lei, stations "Station 1","Station 3"
+200, 3 min move time, 5 min leave time, ticket price 1lei, stations "Station 1","Station 2"
+300, 10 min move time, 3 min leave time, ticket price 1lei, stations "Station 1","Station 3
 => Minimum ticket price: 1 lei
    Minimum travel time: 3min
    
@@ -197,8 +213,8 @@ If every bus has the same move time, by the time the person with the maximum num
 *Example*:
 ```
 Buses:
-200, 3 min move time, ticket price 1lei, stations "Station 1","Station 2"
-300, 10 min move time, ticket price 1lei, stations "Station 1","Station 3"
+200, 3 min move time, 5 min leave time, ticket price 1lei, stations "Station 1","Station 2"
+300, 10 min move time, 3 min leave time, ticket price 1lei, stations "Station 1","Station 3
 => Minimum travel time: 3min
    
 At the start time 
@@ -220,8 +236,8 @@ Doesn't have a different approach then the other two, but was made too see how a
 *Example*:
 ```
 Buses:
-200, 3 min move time, ticket price 1lei, stations "Station 1","Station 2"
-300, 10 min move time, ticket price 1lei, stations "Station 1","Station 3"
+200, 3 min move time, 5 min leave time, ticket price 1lei, stations "Station 1","Station 2"
+300, 10 min move time, 3 min leave time, ticket price 1lei, stations "Station 1","Station 3
 => Minimum ticket price: 1 lei
    Minimum travel time: 3min
    
@@ -244,8 +260,8 @@ Assuming every person that hasn't finished, takes at least **one new bus with th
 
 ```
 Buses:
-200, 3 min move time, ticket price 1lei, stations "Station 1","Station 2"
-300, 10 min move time, ticket price 2lei, stations "Station 1","Station 3"
+200, 3 min move time, 5 min leave time, ticket price 1lei, stations "Station 1","Station 2"
+300, 10 min move time, 3 min leave time, ticket price 2lei, stations "Station 1","Station 3"
 => Maximum ticket price: 2lei
    Maximum travel time: 10min
    
@@ -331,7 +347,7 @@ At some point a **state** could represent a **dead end**, meaning from that poin
 
 ---
 
-#### Input 4 - minimum solution: length 10, cost 63
+#### Input 4 - minimum solution: length 6, cost 31
 |Type of algorithm  |Type of heuristic  |Time|Solution length | Solution cost| Max nodes in memory|Number of nodes generated|
 |--|--|--|--|--|--|--|
 |Breadth First| Banală|> 25s| 
@@ -339,31 +355,31 @@ At some point a **state** could represent a **dead end**, meaning from that poin
 |	| Admisibilă 2|> 25s
 | 	|Admisibilă 3|> 25s
 |	| Neadmisibilă|> 25s
-|Depth First| Banală|14.173|52|377|9|4991| 
-|	| Admisibilă 1|14.108|52|377|9|4991| 
-|	| Admisibilă 2|13.905|52|377|9|4991|  
-|	| Admisibilă 3|14.491|52|377|9|4991|  
-|	| Neadmisibilă|14.444|52|377|9|4991| 
+|Depth First| Banală|> 25s| 
+|	| Admisibilă 1|> 25s
+|	| Admisibilă 2|> 25s
+| 	|Admisibilă 3|> 25s
+|	| Neadmisibilă|> 25s
 |Iterative Depth First| Banală|> 25s
 |	| Admisibilă 1|> 25s
 |	| Admisibilă 2|> 25s
-|	| Admisibilă 3|> 25s
+|	| Admisibilă 3|24.547|6|31|14|12179| 
 |	| Neadmisibilă|> 25s
-|A*| Banală| > 50s 
-|	| Admisibilă 1|37.966|10|63|10080|13849| 
-|	| Admisibilă 2|14.757|10|63|5029|6804| 
-|	| Admisibilă 3|10.558|10|63|3955|5357| 
-|	| Neadmisibilă|0.403|12|64|174|237| 
-|Optimized A*| Banală|18.940|10|63|3893|4704| 
-|	| Admisibilă 1|10.389|10|63|2676|3244| 
-|	| Admisibilă 2|4.836|10|63|1565|1798| 
-|	| Admisibilă 3|3.321|10|63|1231|1400| 
-|	| Neadmisibilă|0.243|12|64|130|147| 
-|IDA*| Banală|> 50s 
-|	| Admisibilă 1|> 50s 
-|	| Admisibilă 2|> 50s 
-|	| Admisibilă 3|> 50s 
-|	| Neadmisibilă|0.634|12|64|9|398|
+|A*| Banală|10.419|6|31|3612|4934|
+|	| Admisibilă 1|3.460|6|31|1629|2107|
+|	| Admisibilă 2|11.755|6|31|3612|4934|
+|	| Admisibilă 3|9.497|6|31|3065|4149| 
+|	| Neadmisibilă|4.672|10|55|1316|2024| 
+|Optimized A*| Banală|1.892|6|31|674|944| 
+|	| Admisibilă 1|0.969|6|31|400|601|  
+|	| Admisibilă 2|1.806|6|31|674|944|  
+|	| Admisibilă 3|1.587|6|31|609|871| 
+|	| Neadmisibilă|0.933|10|55|346|502| 
+|IDA*| Banală|> 25s 
+|	| Admisibilă 1|15.042|6|31|14|9717|   
+|	| Admisibilă 2|> 25s 
+|	| Admisibilă 3|> 25s 
+|	| Neadmisibilă|15.563|10|55|14|7947| 
 
 
 ### Conclusions
@@ -372,12 +388,12 @@ A bad heuristic tested on a limited number of inputs can "trick" everyone, becau
 
 ***Breadth first* is the weakest algorithm** provided. The succesors aren't sorted in any way, so in the worst case reaching a final state requires **iterating through all of the nodes**, which takes **a lot of time and also memory**, because for each node more succesors could be added.
 
-***Depth first* is also weak**, it doesn't provide the minimum length solution and can **fill the memory with additional values because of recursion**, also there's the risk of maximum recursion depth to be reached.
+***Depth first* is also weak**, it doesn't provide the minimum length solution, can **fill the memory with additional values because of recursion**, also there's the risk of maximum recursion depth to be reached and it takes a very long time if the solution is found in the right subtree of the graph.
 
 ***A**** is a good algorithm, and in the tables provided it is easily noticeble how **a good heuristic can improve both the time and memory used**. The algorithm modifes breadth first by sorting the nodes in the queue by cost. This leads to an average reduction of 98.19% for time.
 
 **Optimizing A*** leads to an even better result, but for the disadvantage of computing only one solution. In the table for input 3 we can see that the total number of nodes generated is 11035, and with "euristica admisibila 3" we reduce the number of generated nodes to only 161, which is close to 98.54% less. Same with the time, a reduction of close to 98.91% from the time it takes breadth first to solve. 
 
-***Ida**** performs well for finding **multiple solutions close to each other in the graph**, it takes a longer time otherwise and uses recursion, but keeps the lowest number of nodes in memory. 
+***Ida**** is the best algorithm to use regarding memory usage, keeping the lowest number of nodes in memory. 
 
-Using the right algorithm we can achieve both a good time and memory usage. For the minimum solution the best to use is optimized A* with "euristica admisbila 3" and A* for multiple solutions. Don't get tricked by the beautiful values an invalid heuristic provides, it works if we are looking for a random solution, but not for finding solutions in the ascending order of cost and length.
+Regarding time, if only one solution is needed, optimized A* should be used, if multiple solutions are needed A* should be used. Both achieve a good time and memory usage, especially when using the right heuristic. In the table for input 4 we can see that "euristica admisibila 1" is the best one, because it computes the actual cost for reaching a final state.
