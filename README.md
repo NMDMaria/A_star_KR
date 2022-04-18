@@ -69,6 +69,12 @@ New node has been found: time 08:15, action is unboarding, 3 persons left
 Costul va fi suma tuturor timpilor parcurși și a banilor consumați pentru toți cei N oameni (vom considera costul unei mutari ca suma celor două măsuri, deoarece vrem șî timpi cât mai mici dar și cât mai puțini bani consumați. Totuși trebuie să se memoreze separat pentru a fi indicate cu exactitate în afișarea drumului). Din momentul în care un om și-a terminat drumul, nu se mai adună nimic la cost pentru el.
 
 ## Running the application
+For the program to run its required to install stopit module:
+```
+pip install stopit 
+OR
+easy_install stopit
+```
 In the folder with the project, open a console and run:
 ```ps1
 python multeautobuze.py <folderinput> <folderoutput> <nsol> <timeout>
